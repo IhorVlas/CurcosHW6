@@ -21,7 +21,7 @@ public class Main {
         ArrayList<Integer> arr2 = new ArrayList<>();
 
         for (int i = 0; i < arr1.size(); i++) {
-            if ( arr1.get(i) % 3 == 0 ) {
+            if (arr1.get(i) % 3 == 0) {
                 arr2.add(j, arr1.get(i));
                 j++;
             }
@@ -46,13 +46,13 @@ public class Main {
         System.out.println("\n" + fruits);
 
         for (int i = 0; i < fruits.size(); i++) {
-            if ( fruits.get(i).contains("Orange") ) {
+            if (fruits.get(i).contains("Orange")) {
                 fruits.set(i, "Grapefruit");
                 count++;
                 // fruits.get(i).replace("Orange", "Grapefruit");   // (fruits.get(i),"Grapefruit");}
             }
         }
-        if ( count == 0 ) {
+        if (count == 0) {
             System.out.println("the ORANGE not on the list!");
         } else {
             System.out.println(fruits);
@@ -82,12 +82,12 @@ public class Main {
 
         for (int i = 0; i < firstArr.size(); i++) {
             for (int k = 0; k < secArr.size(); k++) {
-                if ( firstArr.get(i).equals(secArr.get(k)) ) {
+                if (firstArr.get(i).equals(secArr.get(k))) {
                     test = true;
                 }
             }
         }
-        if ( test == true ) {
+        if (test == true) {
             System.out.println("TRUE");
         } else {
             System.out.println("FALSE");
